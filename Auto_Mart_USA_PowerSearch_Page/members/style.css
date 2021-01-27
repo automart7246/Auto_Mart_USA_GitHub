@@ -1,0 +1,53 @@
+/* Hide Seller and Other Information */
+.uhf-link.auth.mui-button--tertiary, .uhf-link.auth.mui-button--tertiary,
+.uhf-link.auth.mui-button--tertiary, .noauth, .uhf-user__locations, .uhf-menu--primary__footer, 
+.partial-container, #footer--container, #basic_search, #_uiq_ft,
+.uhf-search.auth, .uhf-panel--your-account.uhf-accordion__section, .uhf-menu__group.uhf-menu__group--0,
+.uhf-panel--sell.uhf-accordion__section, .uhf-panel--solutions.uhf-accordion__section,
+.uhf-panel--locations.uhf-accordion__section, .mui-col.mui-col--1-1.mui-col--1-2--lg.clip-text, .top-right-links, 
+.nowrap.mui-col.mui-col--1-1.mmrvaluation__adjustment, .listing__cta-column,
+.bid-widget__label, .bid-widget__value, .bid-widget__label.bid-widget__label--50, .InLaneBox__container, 
+.Banner__container, .mui-row.mui-row--flex.border-bottom.seller-info-container,
+.CollapsibleDetail__container.not-collapsible, .bid-widget__value--bold, 
+.BidWiget__header-logos-and-info.show--flex.space-between.no-wrap.flex-align--end {
+    visibility:hidden;
+};
+
+
+
+/* Hide Adj MMR Text 
+.nowrap.mui-col.mui-col--1-1.mmrvaluation__adjustment .mmrLabel {
+    color:transparent
+}; */
+
+/* Hide Not Available Text
+.MmrValuation__link {
+    visibility:hidden
+}; */
+
+/* Hide Box with Buying Information
+.listing__cta-column {
+    visibility:hidden
+}; */
+
+/* Hide Column Header Box
+.listing__cta-column__header {
+    background-color: transparent
+}; */
+
+/* Hide 'Buy Now' Box
+.CtaLink__buy-now-container.buy-now-container {
+   display:none 
+}; */
+
+
+/* Hide Starting Bid Text
+.cta-column__cta-label {
+    color:transparent
+}; */
+
+
+/* Hide Starting Bid Amount Text
+.Tracker__container.mui-m-h-t.nowrap.hide-if-empty {
+    color:transparent
+}; */

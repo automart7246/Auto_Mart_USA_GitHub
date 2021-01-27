@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Search</title>
+</head>
+<body>
+<link rel="stylesheet" href="style.css"></link>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    //Found Method to Auto-Login
+    //at https://stackoverflow.com/questions/16735970/auto-login-with-jquery-ajax
+    $(function() {
+        setTimeout(function() {
+            $.ajax("j_security_check", { j_username: "automartusa7320", j_password: "Password_1" } );
+        }, 2000);
+        });
+    //Found Another Method to Make HTTP Request
+    //at https://api.jquery.com/jquery.get/
+    $.get('https://members.manheim.com/members/advancedSearch', function(data) {
+      $("head").html(data);
+      console.log(data);
+    });
+    $.get('https://members.manheim.com/members/advancedSearch', function(data) {
+      $("body").html(data);
+      console.log(data);
+    });
+    $.get('https://members.manheim.com/members/advancedSearch', function(data) {
+      $("div#postLoginComponent > div > div.section.section--fav-loc > header.section__header > h2.section__title").html(data);
+      console.log($("div#postLoginComponent > div > div.section.section--fav-loc > header.section__header > h2.section__title").text());
+    });
+  </script>
+</body>
+</html>

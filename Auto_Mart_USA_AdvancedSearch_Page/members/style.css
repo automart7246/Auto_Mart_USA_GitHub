@@ -1,0 +1,18 @@
+.uhf-link.auth.mui-button--tertiary, .uhf-link.auth.mui-button--tertiary,
+.uhf-link.auth.mui-button--tertiary, .noauth, .uhf-user__locations, .uhf-menu--primary__footer, 
+.partial-container, #footer--container, #basic_search, #_uiq_ft,
+.uhf-search.auth, .uhf-panel--your-account.uhf-accordion__section, .uhf-menu__group.uhf-menu__group--0,
+.uhf-panel--sell.uhf-accordion__section, .uhf-panel--solutions.uhf-accordion__section,
+.uhf-panel--locations.uhf-accordion__section, .mui-col.mui-col--1-1.mui-col--1-2--lg.clip-text, .top-right-links, 
+.nowrap.mui-col.mui-col--1-1.mmrvaluation__adjustment, .listing__cta-column,
+.bid-widget__label, .bid-widget__value, .bid-widget__label.bid-widget__label--50, .InLaneBox__container, 
+.Banner__container, .mui-row.mui-row--flex.border-bottom.seller-info-container,
+.CollapsibleDetail__container.not-collapsible, .bid-widget__value--bold, 
+.BidWiget__header-logos-and-info.show--flex.space-between.no-wrap.flex-align--end {
+    visibility:hidden;
+};
+
+/*.btn-fake-prism.btn-fake-prism-primary.btn-fake-prism--sm.SearchOverlay__toggle-button {
+    position:relative;
+    z-index: 10000;
+};*/

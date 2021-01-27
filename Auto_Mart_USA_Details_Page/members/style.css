@@ -1,0 +1,11 @@
+/* Hide Seller and Other Information */
+.uhf-link.auth.mui-button--tertiary, .uhf-link.auth.mui-button--tertiary,
+.uhf-link.auth.mui-button--tertiary, .uhf-icon--three-bars,
+.uhf-search.auth, .uhf-menu__trigger, .uhf-menu--primary.uhf-menu--offscreen.uhf-accordion,
+.uhf-user.uhf-menu--offscreen, .bid-widget__label, .bid-widget__value, .top-right-links
+.bid-widget__label.bid-widget__label--50, .InLaneBox__container, 
+.Banner__container, .mui-row.mui-row--flex.border-bottom.seller-info-container,
+.CollapsibleDetail__container.not-collapsible, .bid-widget__value--bold,
+.BidWiget__header-logos-and-info.show--flex.space-between.no-wrap.flex-align--end  {
+    visibility:hidden
+};

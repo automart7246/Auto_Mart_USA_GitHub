@@ -1,0 +1,30 @@
+<html lang="en" class="authenticated">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+</head>
+<link rel="stylesheet" href="style.css"></link>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    //Found Another Method to Make HTTP Request
+    //at https://api.jquery.com/jquery.get/
+    $.get('https://members.manheim.com/members/landingPage', function(data) {
+      $("head").html(data);
+      console.log(data);
+    });
+    $.get('https://members.manheim.com/members/landingPage', function(data) {
+      $("body").html(data);
+      console.log(data);
+    });
+    $.get('https://members.manheim.com/members/landingPage', function(data) {
+      $("div#postLoginComponent > div > div.section.section--fav-loc > header.section__header > h2.section__title").html(data);
+      console.log($("div#postLoginComponent > div > div.section.section--fav-loc > header.section__header > h2.section__title").text());
+    });
+    $(function() {
+      setTimeout(function() {
+        $.ajax("j_security_check", { j_username: "automartusa7320", j_password: "Password_1" } );
+      }, 2000);
+    });
+  </script>
+</html>
